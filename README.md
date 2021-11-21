@@ -4,7 +4,8 @@
 
 ## Welcome! 👋
 
-To-do list built using basic Javascript DOM selector and DOM event listener. 
+To-do list built using basic Javascript DOM selector and DOM events. 
+Exercise given by "The Complete Web Developer in 2022: Zero to Mastery"
 
 
 https://jonasbaek.github.io/basic-to-do-list/
