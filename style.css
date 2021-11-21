@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=M+PLUS+1:wght@100;400&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: calc(100vh - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(coffee-time.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+.container {
+  opacity: 0.85;
+  transition: 500ms ease-in-out;
+  padding: 100px 0 0;
+}
+
+.container:hover {
+  transform: transition;
+  opacity: 1;
+}
+
+#input {
+  width: 240px;
+  height: 29px;
+  padding: 5px 10px;
+  border-radius: 10px 0 0 10px;
+  border-style: none;
+  margin: 20px 0;
+}
+
+#enter {
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+  border-style: none;
+  cursor: pointer;
+  background: #654534;
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+#enter:hover {
+  transform: transition;
+  background: #9c563d;
+}
+
+.main-text {
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+  font-size: 30px;
+  color: #654534;
+  background: #d9b26e;
+  border-radius: 10px 10px 0 0;
+}
+
+hr {
+  width: 80px;
+  border-color: #654534;
+  color: #654534;
+  margin-bottom: 40px;
+  background: #654534;
+}
+
+.container__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-input {
+  background: #d6d0b8;
+  border-radius: 0 0 10px 10px;
+  width: 370px;
+  padding: 20px 0;
+  margin-bottom: 100px;
+  opacity: 0.85;
+}
+
+.main-input ul {
+  padding: 0;
+}
+
+.flex-li {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  background: white;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.main-input li {
+  list-style-type: none;
+}
+
+.delButton {
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  background: tomato;
+  color: white;
+  font-weight: 500;
+  transition: 500ms ease-in-out;
+}
+
+.delButton:hover {
+  background: rgba(255, 0, 0, 0.8);
+  transform: transition;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+/* rodape */
+
+footer {
+  background: rgba(217, 178, 110, 0.9);
+  width: 100%;
+  margin-top: auto;
+}
+
+.container-footer {
+  text-align: center;
+  margin: auto;
+  color: #654534;
+  font-weight: bold;
+  font-size: 15px;
+}
